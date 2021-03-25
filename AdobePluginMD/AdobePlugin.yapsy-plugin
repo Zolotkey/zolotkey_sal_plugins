@@ -1,0 +1,8 @@
+[Core]
+Name = AdobePluginMD
+Module = adobepluginmd
+
+[Documentation]
+Author = Nick Zolotko
+Version = 0.1
+Website = http://imperialba.se

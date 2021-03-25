@@ -1,0 +1,15 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <dl class="dl-horizontal">
+	<legend><h5 class"text-uppercase">Installed Adobe Plugins</h5></legend>
+	{% for pluginnum,plugindata in data.items %}
+		{% if pluginnum != "None"  %}
+		<dt>{{pluginnum}}:</dt>
+		<dd><b>Application</b>: {{ plugindata.app }}</dd>
+		<dd><b>Name</b>: {{ plugindata.pluginname }}</dd>
+		<dd><b>Enabled</b>: {{ plugindata.enabled }}</dd>
+		{% endif %}
+	{% endfor %}
+    </dl>
+  </div>
+</div>
